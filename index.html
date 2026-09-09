@@ -6,102 +6,114 @@
 <title>Rosa I Paula</title>
 
 <style>
-:root {
-    --bg: #F8F3E8;
-    --type: #7A1F1B;
-    --accent: #D97A5F;
+:root{
+    --bg:#F8F3E8;
+    --type:#7A1F1B;
+    --accent:#D97A5F;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-body {
-    background: var(--bg);
-    color: var(--type);
-    font-family: Georgia, serif;
-    min-height: 100vh;
-    padding: 24px;
+body{
+    background:var(--bg);
+    color:var(--type);
+    font-family:Georgia, serif;
+    min-height:100vh;
+    padding:24px;
 }
 
-main {
-    min-height: calc(100vh - 48px);
-    border: 2px solid var(--type);
-    padding: clamp(24px, 5vw, 72px);
-    position: relative;
-    max-width: 1400px;
-    margin: 0 auto;
+main{
+    max-width:1400px;
+    margin:0 auto;
+    min-height:calc(100vh - 48px);
+    border:2px solid var(--type);
+    padding:clamp(24px,5vw,72px);
+    position:relative;
 }
 
-h1 {
-    font-size: clamp(4rem, 10vw, 8rem);
-    font-weight: normal;
-    line-height: 0.9;
+h1{
+    font-size:clamp(4rem,10vw,8rem);
+    font-weight:400;
+    line-height:.9;
 }
 
-.ai {
-    margin-top: 3rem;
-    margin-left: 18%;
-    font-size: clamp(1.4rem, 3vw, 2.5rem);
-    line-height: 1.15;
+.ai{
+    margin-top:3rem;
+    margin-left:18%;
+    font-size:clamp(1.4rem,3vw,2.5rem);
+    line-height:1.15;
 }
 
-.meta {
-    margin-top: 1.5rem;
-    margin-left: 18%;
-    font-size: 1.05rem;
-    line-height: 1.7;
+.meta{
+    margin-top:1.5rem;
+    margin-left:18%;
+    font-size:1.05rem;
+    line-height:1.7;
 }
 
-.meta a {
-    color: inherit;
-    text-decoration: none;
-    border-bottom: 1px solid currentColor;
+.meta a{
+    color:inherit;
+    text-decoration:none;
+    border-bottom:1px solid currentColor;
 }
 
-.work {
-    margin-top: 3rem;
-    margin-left: 48%;
+.work{
+    margin-top:3rem;
+    margin-left:48%;
 }
 
-.work h2 {
-    font-size: 1.3rem;
-    font-weight: normal;
-    margin-bottom: 2rem;
+.work h2{
+    font-size:1.3rem;
+    font-weight:400;
+    margin-bottom:2rem;
+    letter-spacing:.08em;
 }
 
-.item {
-    margin-bottom: 1.8rem;
-    font-size: clamp(1.1rem, 2vw, 1.7rem);
-    line-height: 1.3;
+.item{
+    margin-bottom:1.8rem;
+    font-size:clamp(1.1rem,2vw,1.7rem);
+    line-height:1.3;
 }
 
-.accent {
-    position: absolute;
-    right: 6%;
-    bottom: 6%;
-    width: min(300px, 28vw);
-    height: min(180px, 18vw);
-    background: var(--accent);
+.item a{
+    color:inherit;
+    text-decoration:none;
+    display:inline-block;
+    transition:opacity .2s ease;
 }
 
-@media (max-width: 800px) {
+.item a:hover{
+    opacity:.65;
+}
+
+.accent{
+    position:absolute;
+    right:6%;
+    bottom:6%;
+    width:min(300px,28vw);
+    height:min(180px,18vw);
+    background:var(--accent);
+}
+
+@media (max-width:800px){
 
     .ai,
     .meta,
-    .work {
-        margin-left: 0;
+    .work{
+        margin-left:0;
     }
 
-    .work {
-        margin-top: 2.5rem;
+    .work{
+        margin-top:2.5rem;
     }
 
-    .accent {
-        width: 140px;
-        height: 90px;
+    .accent{
+        width:140px;
+        height:90px;
     }
 }
 </style>
@@ -136,34 +148,31 @@ rosa.paula41@login.cuny.edu
 <h2>WORK</h2>
 
 <div class="item">
-01 Custom Instructions
+01 Custom Instructions</a>
 </div>
 
 <div class="item">
-02 A Style Guide<br>
-for Your AI
+02 A Style Guide for Your AI</a>
 </div>
 
 <div class="item">
-03 Design a ___
+03 Design a ___</a>
 </div>
 
 <div class="item">
-04 Commute Story
+04 Commute Story</a>
 </div>
 
 <div class="item">
-05 Become a<br>
-Crea(i)tive Director
+05 Become a Crea(i)tive Director</a>
 </div>
 
 <div class="item">
-06 Experimental<br>
-AI Interface
+06 Experimental AI Interface</a>
 </div>
 
 <div class="item">
-07 Open
+07 Open</a>
 </div>
 
 </section>
