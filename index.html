@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rosa I Paula</title>
+
+<style>
+:root {
+    --bg: #F8F3E8;
+    --type: #7A1F1B;
+    --accent: #D97A5F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg);
+    color: var(--type);
+    font-family: Georgia, serif;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+main {
+    min-height: calc(100vh - 48px);
+    border: 2px solid var(--type);
+    padding: clamp(24px, 5vw, 72px);
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: clamp(4rem, 10vw, 8rem);
+    font-weight: normal;
+    line-height: 0.9;
+}
+
+.ai {
+    margin-top: 3rem;
+    margin-left: 18%;
+    font-size: clamp(1.4rem, 3vw, 2.5rem);
+    line-height: 1.15;
+}
+
+.meta {
+    margin-top: 1.5rem;
+    margin-left: 18%;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.meta a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+}
+
+.work {
+    margin-top: 3rem;
+    margin-left: 48%;
+}
+
+.work h2 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+.work ol {
+    list-style: none;
+}
+
+.work li {
+    margin-bottom: 1.6rem;
+}
+
+.work a {
+    color: inherit;
+    text-decoration: none;
+    font-size: clamp(1.1rem, 2vw, 1.7rem);
+    line-height: 1.3;
+}
+
+.num {
+    display: inline-block;
+    width: 3rem;
+}
+
+.accent {
+    position: absolute;
+    right: 6%;
+    bottom: 6%;
+    width: min(300px, 28vw);
+    height: min(180px, 18vw);
+    background: var(--accent);
+}
+
+@media (max-width: 800px) {
+
+    .ai,
+    .meta,
+    .work {
+        margin-left: 0;
+    }
+
+    .work {
+        margin-top: 2.5rem;
+    }
+
+    .accent {
+        width: 140px;
+        height: 90px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<main>
+
+<h1>
+ROSA<br>
+I<br>
+PAULA
+</h1>
+
+<div class="ai">
+A.I.<br>
+FOR<br>
+DESIGNERS
+</div>
+
+<div class="meta">
+ART 3041 · Fall 2026
+<br><br>
+<a href="mailto:rosa.paula41@login.cuny.edu">
+rosa.paula41@login.cuny.edu
+</a>
+</div>
+
+<section class="work">
+
+<h2>WORK</h2>
+
+<ol>
+
+<li>
+#
+<span class="num">01</span> Custom Instructions
+</a>
+</li>
+
+<li>
+<a href="#">
+<span class="num">02</span>ide<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Your AI
+</a>
+</li>
+
+<li>
+#
+<span class="num">03</span> Design a ___
+</a>
+</li>
+
+<li>
+#
+<span class="num">04</span> Commute Story
+</a>
+</li>
+
+<li>
+#
+<span class="num">05</span> Become a<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crea(i)tive Director
+</a>
+</li>
+
+<li>
+#
+<span class="num">06</span> Experimental<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AI Interface
+</a>
+</li>
+
+<li>
+#
+<span class="num">07</span> Open
+</a>
+</li>
+
+</ol>
+
+</section>
+
+<div class="accent"></div>
+
+</main>
+
+</body>
+</html>
